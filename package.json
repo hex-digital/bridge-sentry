@@ -1,0 +1,19 @@
+{
+  "name": "bridge-sentry",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/sentry": "^5.1.4",
+    "core-js": "^3.15.1",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge"
+  }
+}
